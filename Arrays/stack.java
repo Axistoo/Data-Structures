@@ -1,6 +1,6 @@
 class mystack{
-    private int[] arr ;
-    private int capacity ;
+    private final int[] arr ;
+    private final int capacity ;
     private int  top; 
     public mystack(int cap){
         capacity = cap ;
